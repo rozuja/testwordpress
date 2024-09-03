@@ -23,6 +23,17 @@ Aditional when we have meta fields added to the product backend with ACF JetEngi
 It matters if you going to load a ton of images in additional gallerys or files. As text fields, its only text doesn't affect the loading times as much. But the more information is loading to the DOM those milisenconds starts counting so its better not to add too much fields unless is neccesary. but in general terms its doesnt affects that much if its only informative.
 If you loading images the best work arround its lazy them.
 
+SECTION 2.
+
+What could I accomplish
+1. Show the JSON data on the backend
+2. did a little fix on the information that was brought from the json
+3. Couldn't implement a sorting button function for the grid
+4. theres a big red button that say open, that opens a popup made with pure css and added a simple jquery toggle for the function. and it says all the courses and the available courses.
+5. Shortcode was created and it displays. THis is the shortcode [fetch_json_data]
+6. Bonus points No caching, tried to implement paging failed ad the page numbers didnt appear, No time to create a setting page with a meta field that can be created with a pluging easely with ACF, shortcodes dont fail after deactivating.
+
+   
 SECTION 3.
 
 3.1 Explain your approach to optimizing the plugin for a high-traffic e-commerce site (500,000+ monthly visitors, 50.000+ products),
@@ -47,4 +58,12 @@ If the plugin has an admin panel for the user, prevent unathorized users to load
 Wel organize structure of files its important, knowing where each function is going to be and what files its calling.
 WEll structured variables inside the functions so it can be reused in any new function that is going to be added
 Document what each files does.
+
+
+SUBMISSION GUIDELINES
+
+Installation instructions
+
+1. Donwload testpluging folder as a zip and in that same way go to plugins page on wordpress and install a new pluging uploading it.
+2. U can use the [fetch_json_data] shortcode to show data on the front end.
 
